@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/Lback.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	font-family: Century Gothic;
+}
+
+.box{
+	width: 320px;
+	height: 430px;
+	background-color: #000000b3;
+	color: #fff;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	top: 50%;
+	padding: 70px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+::placeholder{
+color: black;
+}
+
+.box input{
+	width: 100%;
+	margin-bottom: 20px;
+	background-color: red;
+	
+}
+
+.box input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid red;
+	background-color: transparent;
+	foreground-color: blue;
+	outline: none;
+	height: 40px;
+	color: Red;
+	font-size: 16px;
+}
+
+.box input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background-color: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	transition: 0.4s ease;
+
+}
+
+.box input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #ffc107;
+	color: #000;
+}
+.box input[type="button"]{
+	border:none;
+	outline: none;
+	height: 30px;
+	width: 70px;
+	background-color: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	transition: 0.4s ease;
+
+}
+.box input[class="button"]{
+	border:none;
+	outline: none;
+	height: 30px;
+	width: 200px;
+	background-color: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	transition: 0.4s ease;
+
+}
+.box input[type="button"]:hover{
+	cursor: pointer;
+	background-color: #ffc107;
+	color: #000;
+}
+
+.box a{
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+	transition: 0.4s ease;
+}
+
+.box a:hover{
+	color: #ffc107;
+}
